@@ -1,0 +1,4 @@
+sudo nmap --script vuln 0.0.0.0
+sudo nmap -O 0.0.0.0
+sudo nmap -A 0.0.0.0
+sudo nmap -sS -p 80,443 0.0.0.0/24
